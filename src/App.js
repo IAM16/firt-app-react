@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Navbar, Nav, Form, FormControl, Button, Carousel, Card, Container, Row } from 'react-bootstrap'
 import background1 from './asset/image/ojek.jpg'
-import gambar1 from './asset/image/gambar.jpg'
 import slide2 from './asset/image/slide 2.jpg'
 import slide3 from './asset/image/slide3.jpg'
 import logo from './asset/image/logo.png'
@@ -72,7 +71,7 @@ function App() {
 
         </Row>
       </Container>
-      <div className="google-merah">INI TULISAN MERAH</div>
+      {/* <div className="google-merah">INI TULISAN MERAH</div>
       <div id="google-hijau">INI TULISAN HIJAU</div>
 
       <div className="google-merah">
@@ -82,7 +81,7 @@ function App() {
         <button onClick={penambahan}> + </button>
         <button onClick={() => penambahan2(2)}> +2 </button>
 
-      </div>
+      </div> */}
 
     </>
   )
